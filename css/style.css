@@ -1,0 +1,126 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+}
+.container {
+    font-family: Verdana;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    margin-top:160px;
+}
+
+.card {
+    position:relative;
+    width:640px;
+    height:380px;
+    border:none;
+    outline:none;
+    background: linear-gradient(to bottom, rgba(247, 4, 77, 0.9),rgb(228, 12, 41));
+    box-shadow:0 3px 5px #eee;
+    border-radius: 6px;
+    color:#fff;
+    padding-left:20px;
+}
+.card h1 {
+    font-size:36px;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+.card p {
+    padding-left:10px;
+    font-size:14px;
+    text-align: left;
+}
+
+#footer {
+    padding-top:180px;
+    padding-left:10px;
+    font-size: 12px;
+}
+.container-fluid {
+    position: absolute;
+    width:280px;
+    height:420px;
+    background: #fff;
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    box-shadow:3px 3px 2px 1px 2px gray;
+    margin-left:260px;
+    text-align: center;
+}
+
+.container-fluid p {
+    font-size:20px;
+    padding-top:20px;
+    font-weight: bold;
+    color:rgb(228, 12, 41);
+}
+
+#dot {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    padding:6px;
+    background: linear-gradient(to top, rgba(243, 7, 78, 0.9),rgb(228, 12, 41));
+}
+
+input {
+    border:none;
+    outline: none;
+    border-bottom:1px solid gray;
+    padding-top:16px;
+    margin-bottom:10px;
+}
+
+input::placeholder {
+    font-size:13px;
+    text-transform: capitalize;
+    padding-left:4px;
+}
+
+#login {
+    width:100%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background: linear-gradient(to top, rgba(236, 20, 56, 0.9),rgb(228, 12, 41));
+    color:#fff;
+    text-align:center;
+    height:35px;
+    width:200px;
+    margin-top:10px;
+    font-size:13px;
+    margin:10px 0;
+    padding:4px;
+}
+
+#acc {
+    width:100%;
+    border:2px solid  rgb(228, 12, 41);
+    color:rgb(228, 12, 41);
+    text-align:center;
+    height:35px;
+    margin-top:10px;
+    font-size:13px;
+    text-align: center;
+    background: #fff;
+    padding:4px;
+    width:200px;
+}
+ p #forgot {
+    font-size:13px;
+    text-decoration: none;
+    color:rgb(228, 12, 41);
+    padding:0;
+}
+
